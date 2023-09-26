@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="">
+        <fieldset style="display: inline;">
+         <legend>Sign up</legend>   
+        <label for="firstName">First Name:
+            <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" required minlength="3"/>
+        </label>
+        <br>
+        <br>
+        <label for="lastName">Last Name:
+            <input type="lastName" name="lastName" id="lastName" placeholder="Enter your last name" required minlength="3"/>
+        </label>
+        <br>
+        <br>
+        <label for="email">Email:
+            <input type="email" name="email" id="email" placeholder="Enter email" required/>
+        </label>
+        <br>
+        <br>
+        <label for="password">Password:
+            <input type="password" name="password" id="password" placeholder="Enter password" required minlength="8"/>
+        </label>
+        <br>
+        <br>
+        <label for="confirmPassword">Password:
+            <input type="confirmPassword" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required minlength="8"/>
+        </label>
+        <br>
+        <br>
+        <label for="age">Age:
+            <input type="number" name="age" id="age" placeholder="Enter Age" required min=0 max=150/>
+        </label>
+        <br>
+        <br>
+        <label for="Gender">Gender:
+            <input type="radio" value="male" id="male" name="gender" checked>
+            <label for="male">Male</label>
+            <input type="radio" value="female" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" value="other" id="other" name="gender">
+            <label for="other">other</label>
+        </label>
+        <br>
+        <br>
+        <label for="terms">terms:
+            <input type="checkbox" name="terms" id="terms" required /> I agree to terms and conditions
+        </label>
+        <br>
+        <button type="submit">Register</button>
+    </fieldset>
+    </form>
+</body>
+</html>
